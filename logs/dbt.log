@@ -1,0 +1,98 @@
+[0m00:02:57.039640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001355DEF97D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001355DEF94D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001355DEF8590>]}
+
+
+============================== 00:02:57.044783 | ec0a0a89-3a37-4fe9-8e67-1af6cf4af91a ==============================
+[0m00:02:57.044783 [info ] [MainThread]: Running with dbt=1.7.15
+[0m00:02:57.046744 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbtlearn', 'send_anonymous_usage_stats': 'True'}
+[0m00:02:57.049239 [debug] [MainThread]: Starter project path: C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\venv\Lib\site-packages\dbt\include\starter_project
+[0m00:02:57.132993 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:02:57.136314 [info ] [MainThread]: Setting up your profile.
+[0m00:06:31.778168 [info ] [MainThread]: Profile dbtlearn written to C:\Users\Dell\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:06:31.782335 [debug] [MainThread]: Command `dbt init` succeeded at 00:06:31.781331 after 214.84 seconds
+[0m00:06:31.783332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000135570FB250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001355DF3A8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001355DF3B350>]}
+[0m00:06:31.785325 [debug] [MainThread]: Flushing usage events
+[0m00:59:23.655978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F045B6850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F045D3D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F040819D0>]}
+
+
+============================== 00:59:23.666664 | 3845fbbb-952c-4a1e-b55c-5bc7a97ee9b5 ==============================
+[0m00:59:23.666664 [info ] [MainThread]: Running with dbt=1.7.15
+[0m00:59:23.668307 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m00:59:23.670302 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:59:23.672298 [debug] [MainThread]: Command `dbt run` failed at 00:59:23.672298 after 0.15 seconds
+[0m00:59:23.673295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F041CAC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F7D7AB290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F045B7CD0>]}
+[0m00:59:23.675290 [debug] [MainThread]: Flushing usage events
+[0m01:00:25.644617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFF346D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFEF6B210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFF30BA10>]}
+
+
+============================== 01:00:25.644617 | b4747e30-9a89-42ef-b536-2a9ffc10cb6b ==============================
+[0m01:00:25.644617 [info ] [MainThread]: Running with dbt=1.7.15
+[0m01:00:25.644617 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:25.644617 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:00:25.644617 [debug] [MainThread]: Command `dbt run` failed at 01:00:25.644617 after 0.07 seconds
+[0m01:00:25.644617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CF856B290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFF306C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFF307510>]}
+[0m01:00:25.644617 [debug] [MainThread]: Flushing usage events
+[0m01:11:12.210704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C4436D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C403AA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C4425C90>]}
+
+
+============================== 01:11:12.219445 | d25b6cea-fdb9-42c4-8db4-8b74b1dfb360 ==============================
+[0m01:11:12.219445 [info ] [MainThread]: Running with dbt=1.7.15
+[0m01:11:12.221538 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:11:12.222535 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:11:12.225527 [debug] [MainThread]: Command `dbt run` failed at 01:11:12.224530 after 0.12 seconds
+[0m01:11:12.225527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C2DBA1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6C404ACD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D6BD5FB290>]}
+[0m01:11:12.226524 [debug] [MainThread]: Flushing usage events
+[0m01:23:51.881214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2FEC80750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2FD9CEE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2FEC3BA10>]}
+
+
+============================== 01:23:51.887846 | a7699e67-93c3-434c-84b1-72e21d1fafed ==============================
+[0m01:23:51.887846 [info ] [MainThread]: Running with dbt=1.7.15
+[0m01:23:51.890542 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m01:23:51.891539 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:23:51.893535 [debug] [MainThread]: Command `dbt run` failed at 01:23:51.893535 after 0.10 seconds
+[0m01:23:51.893535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2FEC36A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2FEC93510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E2F7E7B290>]}
+[0m01:23:51.895071 [debug] [MainThread]: Flushing usage events
+[0m02:41:57.692101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051E5DA790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051E5BC710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051E5BC950>]}
+
+
+============================== 02:41:57.694479 | f0dbbfb9-0307-4634-be50-270cfed0ff27 ==============================
+[0m02:41:57.694479 [info ] [MainThread]: Running with dbt=1.7.15
+[0m02:41:57.694479 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt test', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:41:57.694479 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Documents\DBT Course\Projects\AIRBNB\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m02:41:57.694479 [debug] [MainThread]: Command `dbt test` failed at 02:41:57.694479 after 0.10 seconds
+[0m02:41:57.694479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051781B250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051E5BD610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002051E5BF210>]}
+[0m02:41:57.694479 [debug] [MainThread]: Flushing usage events
